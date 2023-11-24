@@ -1,4 +1,6 @@
 import "./styles/App.css";
+import MexiHat from "./styles/sombrero_3798267.png";
+import ToDoLogo from "./styles/list_8476658.png";
 import ToDoForm from "./components/ToDoForm";
 import ToDoList from "./components/ToDoList";
 import { useState, useEffect } from "react";
@@ -75,7 +77,10 @@ function createTask(task) {
 
   return (
     <div>
+      <img src={MexiHat} width="100" height="100" alt="mexi hat"/>
+      <img src={ToDoLogo} width="100" height="100" alt="logo jaja"/>
       <h1>Amigos ToDo-DB</h1>
+      
       
       <ToDoForm
         blankTask={blankTask}
