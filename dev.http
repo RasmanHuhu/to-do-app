@@ -1,0 +1,34 @@
+GET http://localhost:3000/api
+
+###
+
+GET http://localhost:3000/api/2
+
+###
+
+POST http://localhost:3000/api
+Content-Type: application/json
+Accept: application/application/json
+
+{
+    "id": "8",
+    "name": "Wash windows",
+    "urgency": "Not urgent"
+  }
+
+###
+
+PUT http://localhost:3000/api/2
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": "9",
+    "name": "Clean gutter",
+    "urgency": "Urgent"
+  }
+
+### 
+
+DELETE http://localhost:3000/api/6
+Accept: application/json
